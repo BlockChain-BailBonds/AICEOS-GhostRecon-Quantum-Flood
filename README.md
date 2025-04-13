@@ -11,6 +11,14 @@
 ![Quantum Secured](https://img.shields.io/badge/security-Quantum%20Flood-lightgrey)
 ![Powered by BBGT](https://img.shields.io/badge/fuel-BBGT-green)
 ![Status](https://img.shields.io/badge/status-LIVE-brightgreen)
+## 💸 918 Token Presale (LIVE NOW)
+Send ETH (Mainnet or Base) to:
+
+`0x2570Fc924Fd773FA81caD110ebDA115A7726E43C`
+
+🔹 0.01 ETH = 2 918 IOU Tokens  
+🔹 0.10 ETH = 20 918 + GhostPass Elite  
+🔹 1.00 ETH = 200 918 + GhostPass Quantum + Your Name in Credits  
 
 ---
 
