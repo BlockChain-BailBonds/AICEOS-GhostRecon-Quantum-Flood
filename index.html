@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>918 Token Presale - GhostRecon Access</title>
+  <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@walletconnect/web3-provider@1.8.0/dist/umd/index.min.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #0f1117;
+      color: #e4e4e4;
+      text-align: center;
+      padding: 40px;
+    }
+    .btn {
+      padding: 12px 24px;
+      background: #00ffc8;
+      color: #000;
+      border: none;
+      border-radius: 8px;
+      font-weight: bold;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+    .wallet {
+      margin-top: 30px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <h1>🎯 918 Token Presale</h1>
+  <p>Gain access to <strong>GhostRecon Quantum Flood</strong> and secure your 918 Tokens now.</p>
+  <p>✅ Send ETH to: <code>0x2570Fc924Fd773FA81caD110ebDA115A7726E43C</code></p>
+
+  <button class="btn" onclick="connectWallet()">Connect Wallet</button>
+
+  <div class="wallet" id="walletDisplay">Wallet not connected</div>
+
+  <script>
+    async function connectWallet() {
+      if (window.ethereum) {
+        const accounts = await window.ethereum.request({ method: 'eth_requestAccounts' });
+        document.getElementById('walletDisplay').innerText = `Connected: ${accounts[0]}`;
+      } else {
+        alert("No Ethereum wallet detected. Please install MetaMask or use WalletConnect.");
+      }
+    }
+  </script>
+</body>
+</html>
